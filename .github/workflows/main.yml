@@ -6,8 +6,8 @@ on:
 
 jobs:
   build_and_test:
-  runs-on: windows-2019
-  steps: 
+    runs-on: windows-2019
+    steps: 
       -name: checkout
       uses: actions/checkout@v2
 
